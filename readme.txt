@@ -38,7 +38,12 @@ Charter Boat Bookings helps you better manage your cash flow by splitting the to
 **Schedule Reminders:** Daily charter schedule emails to the captain so keeping track of your charter schedule has never been easier. Email shows the schedule for the upcoming 5 days of charter with links to the customers email so contact is simple. Charters show up on your email schedule two days prior to the customer final balance due date and show whether the balance is paid or pending.
 
 **Of course it does that:**
+* looks great and works great on mobile
 * unlimited bookings
+* unlimited users - admin or shop manager or agents - there is no limit
+* invoicing, reporting, projecting sales
+* promo codes, pricing management, inventory management
+* your choice of payment gateway
 * double bookings or overbooking is not allowed and charters that are not available cannot be purchased
 * shows availability calendar
 * customer balance due reminder notification
@@ -72,7 +77,7 @@ Please consider upgrading to [Premium Owner Operator](https://msp-media.org/prod
 <details>
    <summary>Are charters products available each day?</summary>
    <p>In short, yes. Charter Boat Bookings is based on the most common business model which is fishing or sailing any day that a customer wants to go out and the weather is good. So we’ve designed the settings to be as few and simple as they can be to meet that business model. When you create a charter booking product, it becomes available for booking every day.</p>
-   <p>If you are running a business and rely on the charter income, you probably need to upgrade to the Owner Operator Version of Charter Boat Bookings which includes the option to be open on some days and closed on others. In the Premium Owner Operator Version, navigate to WooCommerce->settings->product-> Charter Bookings and set the days you are open.</p>
+   <p>If you are running a business and rely on the charter income, you probably need to upgrade to Charter Bookings Pro which includes the option to be open on some days and closed on others. In the Pro Version, navigate to WooCommerce->settings->product-> Charter Bookings and set the days you are open.</p>
 </details>
 <details>
    <summary>Why do I need more than one charter product?</summary>
