@@ -134,7 +134,7 @@ function wc_custom_charter_booking_fields( $post_id ) {
         update_post_meta(
           $post_id,
           $field,
-          esc_attr( $_POST[$field] ) );
+          sanitize_text_field( $_POST[$field] ) );
     } else {
       if(is_charter_booking($post_id)){
 			     $_SESSION['cb_fields'] = 'empty';
@@ -147,12 +147,12 @@ function wc_custom_charter_booking_fields( $post_id ) {
 			update_post_meta(
 				$post_id,
 				'_cb_is_sunset',
-				esc_attr( $_POST['_cb_is_sunset'] ) );
+				sanitize_text_field( $_POST['_cb_is_sunset'] ) );
 		} else {
 			update_post_meta(
 				$post_id,
 				'_cb_is_sunset',
-				esc_attr( 'no' ) );
+				sanitize_text_field( 'no' ) );
 		}
 
   if(is_charter_booking($post_id)){
@@ -163,14 +163,14 @@ function wc_custom_charter_booking_fields( $post_id ) {
        update_post_meta(
          $reservation,
          '_regular_price',
-         esc_attr( $_POST['_cb_reservation_fee']) );
+         sanitize_text_field( $_POST['_cb_reservation_fee']) );
      }
      //update changes to final balance fee
      foreach($variations['finalbalance_posts'] as $finalbalance){
        update_post_meta(
          $finalbalance,
          '_regular_price',
-         esc_attr( $_POST['_cb_final_balance']) );
+         sanitize_text_field( $_POST['_cb_final_balance']) );
      }
      //set end time product meta
    }
