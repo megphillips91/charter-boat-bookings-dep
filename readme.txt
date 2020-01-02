@@ -1,7 +1,7 @@
 === Charter Boat Bookings ===
 Contributors: megphillips91
 Donate link: https://msp-media.org/product/support-open-source/
-Tags: sailing charter reservations, fishing charter bookings, WooCommerce, bookings, reservations, boat booking system, boat reservation software, online boat booking, boat charter software, charter boat booking software, charter booking software
+Tags: Tours, Tour Operator, Booking Calendar, Booking System, WooCommerce, Reservations, Fishing, Sailing, Charter Boats, Boat, Captain
 Requires at least: 5.0
 Tested up to: 5.3
 Requires PHP: 5.3
@@ -16,12 +16,12 @@ Charter Boat Bookings is a boat booking system for captains. Use Woocommerce for
 ## Summary ##
 Charter Boat Bookings is a WooCommerce extension specifically designed to take reservations for Charter Boats. Built to suit the business needs of Sailing Charters, Fishing Charters, Sportfishing, Fishing Guides, even Duck Hunting Guides. This WordPress charter boat booking system includes industry specific features including weather predictions and sunset dependent products. Book private or per person charters, and set your maximum passenger capacity. Minimize refunds with built-in reservation fee and final balance.
 
-This is the Lite version of Charter Boat Bookings and available here in the WordPress Plugin Repository for free use. If you are interested in more features, please do consider upgrading to [Charter Boat Bookings Pro](https://msp-media.org/product/charter-boat-bookings-owner-operator/). Charter Bookings is boat reservation software. It is not a general reservation system for tour operators that has been adapted into an online boat booking system. The target users for this plugin are owner-operator captains with no code writing expertise or agents developing an e-commerce website for captains. The dashboard has as few settings as possible to set up a typical sailing or fishing schedule and take paid reservations, manage availability, and communicate effectively with your customers.
+This is the Lite version of Charter Boat Bookings and available here in the WordPress Plugin Repository for free use. If you are interested in more features, please do consider upgrading to [Charter Boat Bookings Pro](https://msp-media.org/charter-boat-bookings/). Charter Bookings is boat reservation software. It is not a general reservation system for tour operators that has been adapted into an online boat booking system. The target users for this plugin are owner-operator captains with no code writing expertise or agents developing an e-commerce website for captains. The dashboard has as few settings as possible to set up a typical sailing or fishing schedule and take paid reservations, manage availability, and communicate effectively with your customers.
 
 ### Background ###
 Developed by a team with more than 40 combined years experience within all aspects of the charter industry: daysailing, bareboat charters, inshore fishing charters, sportfishing charters, marina management, and even fleet management.
 
-Designed to scale with your business from the ground up, Charter Boat Bookings is offered in two versions: Charter Bookings Lite and [Owner-Operator Premium](https://msp-media.org/product/charter-boat-bookings-owner-operator/). The free version available here will support a single boat in day charter business - fishing, sailing, or pleasure trips. The premium version offers more features and flexibility. Please check it out.
+Designed to scale with your business from the ground up, Charter Boat Bookings is offered in two versions: Charter Bookings Lite and [Pro](https://msp-media.org/charter-boat-bookings/). The free version available here will support a single boat in day charter business - fishing, sailing, or pleasure trips. The premium version offers more features and flexibility. Please check it out.
 
 ### Features ###
 **Weather Prediction:** Product listings and single product pages connect with the OpenWeather API so that they can show accurate wind and weather prediction for up to five days in the future. The weather is volatile, and the charter boat industry is depends on the weather. Refunds are potentially the most challenging aspect of charter boat business management. Showing your customers the weather conditions and wind speed/direction before they book helps naturally shift customers into a better customer experience and minimize refunds. This plugin relies on OpenWeather API, and you must register with their site in order to use their weather predictions and this plugin.
@@ -54,7 +54,7 @@ Charter Boat Bookings helps you better manage your cash flow by splitting the to
 * sunset charters adjust start time based on duration set and arrival back to dock at civil twilight
 * availability dynamically considers the start time of sunset charters
 
-Please consider upgrading to [Premium Owner Operator](https://msp-media.org/product/charter-boat-bookings-owner-operator/) version which offers many more features you may find useful in your business.
+Please consider upgrading to [Pro](https://msp-media.org/charter-boat-bookings/) version which offers many more features you may find useful in your business.
 
 == Installation ==
 
@@ -114,6 +114,7 @@ Please consider upgrading to [Premium Owner Operator](https://msp-media.org/prod
 </details>
 <details>
    <summary>I followed the directions from WooCommerce, but the Calendar and product listing looks all jacked up and nothing like the screenshots you show. What did I do wrong?</summary>
+   <p>We offer a premium companion theme [BoatWorks](https://msp-media.org/charter-boat-bookings/). This makes the styling of your charter boat website turn key and is designed to look great with Charter Boat Bookings.</p>
     <p>The charter product listing needs about 850px in minimum width for the desktop display. If your theme restricts the content area to less than that, you will need to make a theme revision with a little custom CSS to expand the content width. </p>
     <p>If the headlines are too large on the Product Listing and Availability calendar, you will need to make a theme revision with a little custom CSS for charter bookings single product pages. </p>
     <p>Some themes have styling within their CSS which causes the product listing 'Buy Now' to mis-align. This can also have a negative impact sometimes on the WooCommerce checkout page. Please reach out to our team on the support forum so we can take a look at your specific configuration and troubleshoot the styling of those views. If it is something pretty quick, we should be able to take a look and let you know.
