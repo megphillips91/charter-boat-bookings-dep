@@ -1,7 +1,7 @@
 === Charter Boat Bookings ===
 Contributors: megphillips91
 Donate link: https://msp-media.org/product/support-open-source/
-Tags: Tours, Tour Operator, Booking Calendar, Booking System, WooCommerce, Reservations, Fishing, Sailing, Charter Boats, Boat, Captain, Availability Calendar
+Tags: Charter Boats, Bookings, WooCommerce, Tours, Tour Operator, Booking Calendar, Booking System, Reservations, Availability Calendar
 Requires at least: 5.0
 Tested up to: 5.3
 Requires PHP: 5.3
@@ -13,8 +13,8 @@ Charter Boat Bookings is a boat booking system for captains. Use WooCommerce for
 
 == Description ==
 
-## Summary ##
-Charter Boat Bookings is a WooCommerce extension specifically designed to take reservations for Charter Boats. Built to suit the business needs of Sailing Charters, Fishing Charters, Sportfishing, Fishing Guides, even Duck Hunting Guides. This WordPress charter boat booking system includes industry specific features including weather predictions and sunset dependent products. Book private or per person charters, and set your maximum passenger capacity. Minimize refunds with built-in reservation fee and final balance.
+## WooCommerce Bookings Extension ##
+Charter Boat Bookings is a WooCommerce Bookings extension for tour operators specifically designed to take reservations for Charter Boats. Built to suit the business needs of Sailing Charters, Fishing Charters, Sportfishing, Fishing Guides, even Duck Hunting Guides. This WordPress charter boat booking system includes industry specific features including weather predictions and sunset dependent products. Book private or per person charters, and set your maximum passenger capacity. Minimize refunds with built-in reservation fee and final balance.
 
 This is the Lite version of Charter Boat Bookings and available here in the WordPress Plugin Repository for free use. If you are interested in more features, please do consider upgrading to [Charter Boat Bookings Pro](https://msp-media.org/charter-boat-bookings/). Charter Bookings is boat reservation software. It is not a general reservation system for tour operators that has been adapted into an online boat booking system. The target users for this plugin are owner-operator captains with no code writing expertise or agents developing an e-commerce website for captains. The dashboard has as few settings as possible to set up a typical sailing or fishing schedule and take paid reservations, manage availability, and communicate effectively with your customers.
 
@@ -30,7 +30,7 @@ Designed to scale with your business from the ground up, Charter Boat Bookings i
 
 **Minimize Refunds With Two Payments:** When your business is weather dependent and advance booking deposits are the norm, refunding deposits due to bad weather can become a real headache. The customer demands associated with refunds can quickly cut into your cash flow and potentially lead to sticky situations that could ruin your reputation.
 
-Charter Boat Bookings helps you better manage your cash flow by splitting the total charter fee into a smaller up-front reservation payment and a larger final payment. The product settings allows you to control the total cost of the payments as well as the up-front reservation payment. The system then automatically sets the due date for the final payment to 3 days prior to the charter and notifies your customer to pay the final balance.  Three days is a carefully considered window: weather predictions usually become accurate 3 days prior to the charter, plus most credit-card merchant processors take 3 days to deposit credit card payments into your bank account. In short, the Charter Boat Bookings plug-in helps you better manage your exposure to weather-related refunds.
+**Manage Cash Flow:**Charter Boat Bookings helps you better manage your cash flow by splitting the total charter fee into a smaller up-front reservation payment and a larger final payment. The product settings allows you to control the total cost of the payments as well as the up-front reservation payment. The system then automatically sets the due date for the final payment to 3 days prior to the charter and notifies your customer to pay the final balance.  Three days is a carefully considered window: weather predictions usually become accurate 3 days prior to the charter, plus most credit-card merchant processors take 3 days to deposit credit card payments into your bank account. In short, the Charter Boat Bookings plug-in helps you better manage your exposure to weather-related refunds.
 
 
 **Manage Orders:** Each booking links to the reservation and final balance order within the bookings admin menu. This helps you administrate charter booking orders just as you would any other WooCommerce Order.
@@ -78,7 +78,7 @@ To accept cash at the dock, you enable cash or check payments within WooCommerce
 
 In short, yes. Charter Boat Bookings is based on the most common business model which is fishing or sailing any day that a customer wants to go out and the weather is good. So we’ve designed the settings to be as few and simple as they can be to meet that business model. When you create a charter booking product, it becomes available for booking every day.
 
-If you are running a business and rely on the charter income, you probably need to upgrade to Charter Bookings Pro which includes the option to be open on some days and closed on others. In the Pro Version, navigate to WooCommerce->settings->product-> Charter Bookings and set the days you are open.
+If you are running a business and rely on the charter income, you probably need to upgrade to [Charter Bookings Pro](https://msp-media.org/charter-boat-bookings/) which includes the option to be open on some days and closed on others. In the Pro Version, navigate to WooCommerce->settings->product-> Charter Bookings and set the days you are open.
 
 =Why do I need more than one charter product?=
 
@@ -124,7 +124,7 @@ Some themes have styling within their CSS which causes the product listing 'Buy 
 
 =Can I change the final balance due date? =
 
-The settings within the product admin screen allow you to set the amount of the final balance. The due date timing is static in Charter Bookings Lite at 3 days prior. It can be shifted, notifications cancelled in Charter Bookings Owner Operator (premium).
+The settings within the product admin screen allow you to set the amount of the final balance. The due date timing is static in Charter Bookings Lite at 3 days prior. It can be shifted, notifications cancelled in [Charter Bookings Pro] (https://wordpress.org/plugins/charter-boat-bookings/).
 
 =How much should I set for the reservation fee vs. the charter fee?=
 This is really a business decision, but we’ve learned from experience that 15% is a good starting point. This proportionately scales the reservation cost with the overall cost of the product and aligns with industry standard brokerage fees and booking commissions. Keep in mind that any amount paid up front for a reservation creates a psychological buy-in for the customer. Collecting final balance payments is not usually a problem as long as the weather is good.
