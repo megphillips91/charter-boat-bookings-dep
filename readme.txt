@@ -1,7 +1,7 @@
 === Charter Boat Bookings ===
 Contributors: megphillips91
 Donate link: https://msp-media.org/product/support-open-source/
-Tags: Tours, Tour Operator, Booking Calendar, Booking System, WooCommerce, Reservations, Fishing, Sailing, Charter Boats, Boat, Captain
+Tags: Tours, Tour Operator, Booking Calendar, Booking System, WooCommerce, Reservations, Fishing, Sailing, Charter Boats, Boat, Captain, Availability Calendar
 Requires at least: 5.0
 Tested up to: 5.3
 Requires PHP: 5.3
@@ -9,7 +9,7 @@ Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Charter Boat Bookings is a boat booking system for captains. Use Woocommerce for reservations - Sunset Sails, Daysails, Sportfishing, Inshore Fishing
+Charter Boat Bookings is a boat booking system for captains. Use WooCommerce for reservations - Sunset Sails, Daysails, Sportfishing, Inshore Fishing
 
 == Description ==
 
@@ -54,81 +54,81 @@ Charter Boat Bookings helps you better manage your cash flow by splitting the to
 * sunset charters adjust start time based on duration set and arrival back to dock at civil twilight
 * availability dynamically considers the start time of sunset charters
 
-Please consider upgrading to [Pro](https://msp-media.org/charter-boat-bookings/) version which offers many more features you may find useful in your business.
+[Please consider upgrading to Pro version which offers many more features you may find useful in your business.](https://msp-media.org/charter-boat-bookings/)
 
 == Installation ==
 
-=== INSTALLING THE BOOKING PACKAGE PLUGIN IS EASY ===
+=== INSTALLING CHARTER BOAT BOOKINGS PLUGIN IS EASY ===
 1. From the dashboard of your site, navigate to Plugins –> Add New.
 2. Select the Upload option and hit “Choose File.”
 3. Follow the on-screen instructions and wait as the upload completes.
 4. When it’s finished, activate the plugin via the prompt. A message will show confirming activation was successful.
 
 == Frequently Asked Questions ==
-<details>
-   <summary>How do I get hooked up to process credit cards?</summary>
-   <p>To accept credit cards, you will need a merchant processor (also known as Payment Gateway). We recommend Stripe or Square. They are both easy enough, not too expensive, and work great with WooCommerce.</p>
-   <p>Once your account with the merchant is set up and active, navigate to WooCommerce->settings->payments and enable the payment gateway that you chose.</p>
-</details>
-<details>
-   <summary>What if I want to take cash at the dock?</summary>
-   <p>To accept cash at the dock, you enable cash or check payments within WooCommerce -> Settings -> Payments ->enable cash on delivery.</p>
-</details>
-<details>
-   <summary>Are charters products available each day?</summary>
-   <p>In short, yes. Charter Boat Bookings is based on the most common business model which is fishing or sailing any day that a customer wants to go out and the weather is good. So we’ve designed the settings to be as few and simple as they can be to meet that business model. When you create a charter booking product, it becomes available for booking every day.</p>
-   <p>If you are running a business and rely on the charter income, you probably need to upgrade to Charter Bookings Pro which includes the option to be open on some days and closed on others. In the Pro Version, navigate to WooCommerce->settings->product-> Charter Bookings and set the days you are open.</p>
-</details>
-<details>
-   <summary>Why do I need more than one charter product?</summary>
-   <p>Many fishing captain’s offer half day and whole day charters. Sailing captains usually offer half day, whole day, and sunset sails. You will set up each of these as a product within WooCommerce. If you offer per person and private, then you would set up each of those also - one for private and one for per person.</p>
-   <p>An example of a common Sailing Product Assortment may be:
-      * Morning Half Day
-      * Morning Half Day Per Person
-      * Afternoon Half Day
-      * Afternoon Per person
-      * Sunset
-      * Sunset Per Person
-      * Private Whole Day Sail
-   </p>
-</details>
-<details>
-   <summary>Why would I want to offer Per Person Charters instead of only Private Charters?</summary>
-   <p>Charter Boat Bookings plugin is set up to require a minimum number of seats sold within the first booking, so the risk is pretty low.  If you set the per-person rate higher than the pro-rata private rate for the same charter, the overall revenue potential is higher with per person charters.</p>
-  <p>We’ve found that it helps grow your business by advertising “charters starting at $x.xx) which is the per person rate for the shortest charter. This way of speaking about your charter offering grows your audience by including customers who may wrongly assume a charter is out of their budget. </p>
-</details>
-<details>
-   <summary>How do I set up a Charter on the calendar?</summary>
-   <p>Charter Boat Bookings follows the standard WooCommerce workflow. Setting up charters is the same as creating any other product in WooCommerce. Check out these links within the WooCommerce Documentation
-    * [WooCommerce Getting Started](https://docs.woocommerce.com/documentation/plugins/woocommerce/getting-started/)
-    * [WooCommerce Setting Up Products](https://docs.woocommerce.com/documentation/plugins/woocommerce/getting-started/setup-products/)
-    </p>
-    <p>There are just a few extra fields for a charter booking which you can see within the screenshots.
-      * Reservation fee
-      * Final balance
-      * Location
-      * Sunset Charter?
-      * Charter Start Time
-      * Duration
-    </p>
-</details>
-<details>
-   <summary>I followed the directions from WooCommerce, but the Calendar and product listing looks all jacked up and nothing like the screenshots you show. What did I do wrong?</summary>
-   <p>We offer a premium companion theme [BoatWorks](https://msp-media.org/charter-boat-bookings/). This makes the styling of your charter boat website turn key and is designed to look great with Charter Boat Bookings.</p>
-    <p>The charter product listing needs about 850px in minimum width for the desktop display. If your theme restricts the content area to less than that, you will need to make a theme revision with a little custom CSS to expand the content width. </p>
-    <p>If the headlines are too large on the Product Listing and Availability calendar, you will need to make a theme revision with a little custom CSS for charter bookings single product pages. </p>
-    <p>Some themes have styling within their CSS which causes the product listing 'Buy Now' to mis-align. This can also have a negative impact sometimes on the WooCommerce checkout page. Please reach out to our team on the support forum so we can take a look at your specific configuration and troubleshoot the styling of those views. If it is something pretty quick, we should be able to take a look and let you know.
-</details>
-<details>
-   <summary>Can I change the final balance due date? </summary>
-    <p>The settings within the product admin screen allow you to set the amount of the final balance. The due date timing is static in Charter Bookings Lite at 3 days prior. It can be shifted, notifications cancelled in Charter Bookings Owner Operator (premium).</p>
-</details>
-<details>
-   <summary>How much should I set for the reservation fee vs. the charter fee?</summary>
-    <p>This is really a business decision, but we’ve learned from experience that 15% is a good starting point. This proportionately scales the reservation cost with the overall cost of the product and aligns with industry standard brokerage fees and booking commissions. Keep in mind that any amount paid up front for a reservation creates a psychological buy-in for the customer. Collecting final balance payments is not usually a problem as long as the weather is good.</p>
-    <p> Our best recommendation is to use your gut and balance your priorities. If you find that holding enough reserves for large refunds is not a challenge, then you could set the reservation fee higher around 50%.</p>
-</details>
 
+=How do I get hooked up to process credit cards?=
+To accept credit cards, you will need a merchant processor (also known as Payment Gateway). We recommend Stripe or Paypal. They are both easy enough, not too expensive, and work great with WooCommerce.
+
+Once your account with the merchant is set up and active, navigate to WooCommerce->settings-payments and enable the payment gateway that you chose.
+
+=What if I want to take cash at the dock?=
+To accept cash at the dock, you enable cash or check payments within WooCommerce -> Settings -> Payments ->enable cash on delivery.
+
+=Are charters products available each day?=
+
+In short, yes. Charter Boat Bookings is based on the most common business model which is fishing or sailing any day that a customer wants to go out and the weather is good. So we’ve designed the settings to be as few and simple as they can be to meet that business model. When you create a charter booking product, it becomes available for booking every day.
+
+If you are running a business and rely on the charter income, you probably need to upgrade to Charter Bookings Pro which includes the option to be open on some days and closed on others. In the Pro Version, navigate to WooCommerce->settings->product-> Charter Bookings and set the days you are open.
+
+=Why do I need more than one charter product?=
+
+Many fishing captain’s offer half day and whole day charters. Sailing captains usually offer half day, whole day, and sunset sails. You will set up each of these as a product within WooCommerce. If you offer per person and private, then you would set up each of those also - one for private and one for per person.
+
+An example of a common Sailing Product Assortment may be:
+* Morning Half Day
+* Morning Half Day Per Person
+* Afternoon Half Day
+* Afternoon Per person
+* Sunset
+* Sunset Per Person
+* Private Whole Day Sail
+
+
+=Why would I want to offer Per Person Charters instead of only Private Charters?=
+
+Charter Boat Bookings plugin is set up to require a minimum number of seats sold within the first booking, so the risk is pretty low.  If you set the per-person rate higher than the pro-rata private rate for the same charter, the overall revenue potential is higher with per person charters.
+
+We’ve found that it helps grow your business by advertising “charters starting at $x.xx) which is the per person rate for the shortest charter. This way of speaking about your charter offering grows your audience by including customers who may wrongly assume a charter is out of their budget.
+
+=How do I set up a Charter on the calendar?=
+Charter Boat Bookings follows the standard WooCommerce workflow. Setting up charters is the same as creating any other product in WooCommerce. Check out these links within the WooCommerce Documentation
+* [WooCommerce Getting Started](https://docs.woocommerce.com/documentation/plugins/woocommerce/getting-started/)
+* [WooCommerce Setting Up Products](https://docs.woocommerce.com/documentation/plugins/woocommerce/getting-started/setup-products/)
+
+There are just a few extra fields for a charter booking which you can see within the screenshots.
+* Reservation fee
+* Final balance
+* Location
+* Sunset Charter?
+* Charter Start Time
+* Duration
+
+=I followed the directions from WooCommerce, but the Calendar and product listing looks all jacked up and nothing like the screenshots you show. What did I do wrong?=
+
+We offer a premium companion theme [BoatWorks](https://msp-media.org/charter-boat-bookings/). This makes the styling of your charter boat website turn key and is designed to look great with Charter Boat Bookings.
+
+The charter product listing needs about 850px in minimum width for the desktop display. If your theme restricts the content area to less than that, you will need to make a theme revision with a little custom CSS to expand the content width.
+
+If the headlines are too large on the Product Listing and Availability calendar, you will need to make a theme revision with a little custom CSS for charter bookings single product pages.
+Some themes have styling within their CSS which causes the product listing 'Buy Now' to mis-align. This can also have a negative impact sometimes on the WooCommerce checkout page. Please reach out to our team on the support forum so we can take a look at your specific configuration and troubleshoot the styling of those views. If it is something pretty quick, we should be able to take a look and let you know.
+
+=Can I change the final balance due date? =
+
+The settings within the product admin screen allow you to set the amount of the final balance. The due date timing is static in Charter Bookings Lite at 3 days prior. It can be shifted, notifications cancelled in Charter Bookings Owner Operator (premium).
+
+=How much should I set for the reservation fee vs. the charter fee?=
+This is really a business decision, but we’ve learned from experience that 15% is a good starting point. This proportionately scales the reservation cost with the overall cost of the product and aligns with industry standard brokerage fees and booking commissions. Keep in mind that any amount paid up front for a reservation creates a psychological buy-in for the customer. Collecting final balance payments is not usually a problem as long as the weather is good.
+ Our best recommendation is to use your gut and balance your priorities. If you find that holding enough reserves for large refunds is not a challenge, then you could set the reservation fee higher around 50%.
 
 == Screenshots ==
 
