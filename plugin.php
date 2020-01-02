@@ -6,7 +6,7 @@
  * In particular, the charter boat industry is highly weather dependant and therein has many weather cancellations and/or refunds. Due to this, Charter Bookings accepts a reservation fee and a final balance fee rather than a full payment up front. This functionality proves ideal for the charter operator since the final balance is due only three days prior to the charter such that funds will typically not have transferred to charter operator's bank and therein providing customer refunds is much easier.
  * Author: megphillips91
  * Author URI: http://msp-media.org/
- * Version: 1.3.1
+ * Version: 1.0
  * License: GPL2+
  * http://www.gnu.org/licenses/gpl-3.0.html
  *

@@ -5,7 +5,7 @@ Tags: Tours, Tour Operator, Booking Calendar, Booking System, WooCommerce, Reser
 Requires at least: 5.0
 Tested up to: 5.3
 Requires PHP: 5.3
-Stable tag: trunk
+Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
