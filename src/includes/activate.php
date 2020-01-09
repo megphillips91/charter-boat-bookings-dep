@@ -19,6 +19,14 @@ function cb_admin_errors() {
 		if(!get_option('cb_open_weather_key') || empty(get_option('cb_open_weather_key'))){
 			echo $notice;
 		}
+		//http://localhost:8888/charter-bookings-lite/wp-admin/plugin-install.php?s=woocommerce&tab=search&type=term
+		$notice = '
+			<div class="notice notice-error">
+					<p>'.'Charter Bookings is a WooCommerce Extension. It cannot work without WooCommerce Installted and Activated. <a href="'.admin_url('plugin-install.php?s=woocommerce&tab=search&type=term').'">Install WooCommerce Now</a>.'.'</p>
+			</div>';
+		if(!class_exists('WC_Product', false)){
+			echo $notice;
+		}
 }
 add_action('admin_notices', __NAMESPACE__ . '\\cb_admin_errors');
 

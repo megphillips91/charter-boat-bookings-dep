@@ -117,7 +117,7 @@ add_action( 'admin_footer', __NAMESPACE__ . '\\charter_booking_custom_js' );
 
 //saves custom meta on post update
 function wc_custom_charter_booking_fields( $post_id ) {
-	session_start();
+  if(session_status() === PHP_SESSION_NONE){session_start();}
   if(is_charter_booking($post_id)){
       $_SESSION['cb_fields'] = 'complete';
     }
@@ -181,7 +181,7 @@ add_action( 'woocommerce_process_product_meta', __NAMESPACE__ . '\\wc_custom_cha
 
 
 function cb_product_fields_notice() {
-    session_start();
+  if(session_status() === PHP_SESSION_NONE && !headers_sent()){session_start();}
   	if(isset($_SESSION['cb_fields']) && $_SESSION['cb_fields'] == 'empty'){
     $notice  = '
       <div class="notice notice-error is-dismissible">
