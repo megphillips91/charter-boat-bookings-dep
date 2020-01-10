@@ -5,7 +5,7 @@ Tags: Charter Boats, Bookings, WooCommerce, Tours, Tour Operator, Booking Calend
 Requires at least: 5.0
 Tested up to: 5.3
 Requires PHP: 5.3
-Stable tag: 1.4
+Stable tag: 1.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -145,3 +145,15 @@ This is really a business decision, but we’ve learned from experience that 15%
 
 = 1.0 =
 * This is the initial release
+
+= 1.2 =
+* bug fixes from corruption of 1.0
+
+= 1.3 =
+* this was an intermediate release
+
+= 1.4 =
+* so some of the beta changes before 1.0 were lost with the 1.0 corruption. This version has wp_ replaced with wpdb->prefix and esc_attr replaced with sanitize_text_field where appropriate.
+
+= 1.5 =
+* made some changes to the order of the admin notices on install. Corrected a spelling error in an admin notice. Updated tag to 1.5
