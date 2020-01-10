@@ -37,7 +37,8 @@ class CB_Booking_Query {
   }
 
   private function datetime_query(){
-    $qry = "SELECT id FROM wp_charter_bookings  ";
+    global $wpdb;
+    $qry = "SELECT id FROM ".$wpdb->prefix."charter_bookings  ";
     $qry .= "WHERE charter_date = '".$this->args['datetime']."' ";
     if(count($this->args) >= 2){
         $x=0;
@@ -54,7 +55,8 @@ class CB_Booking_Query {
   }
 
   private function simple_query(){
-    $qry = "SELECT id FROM wp_charter_bookings  ";
+    global $wpdb;
+    $qry = "SELECT id FROM ".$wpdb->prefix."charter_bookings  ";
     if(count($this->args) >= 1){
     $qry .= '  WHERE';
     $x=0;
@@ -70,12 +72,13 @@ class CB_Booking_Query {
   }
 
   private function date_query(){
+    global $wpdb;
     if(isset($this->args['booking_status']) && is_array($this->args['booking_status'])){
       $status_array = $this->args['booking_status'];
       unset($this->args['booking_status']);
     }
-    $qry = "select a.id from wp_charter_bookings a
-      JOIN (SELECT date(charter_date) as the_date, id from wp_charter_bookings) b
+    $qry = "select a.id from ".$wpdb->prefix."charter_bookings a
+      JOIN (SELECT date(charter_date) as the_date, id from ".$wpdb->prefix."charter_bookings) b
       on a.id=b.id
       where b.the_date = '".$this->args['charter_date']."' ";
       if(isset($status_array)){
@@ -110,8 +113,9 @@ class CB_Booking_Query {
 
 
   private function date_range_query(){
+    global $wpdb;
     $sort = (!isset($this->args['sort'])) ? 'ASC' : $this->args['sort'];
-    $qry = "select * from wp_charter_bookings
+    $qry = "select * from ".$wpdb->prefix."charter_bookings
 where date(charter_date) ";
     if(is_array($this->args['date_range'])){
       $qry .= ">= '".$this->args['date_range']['start']."'

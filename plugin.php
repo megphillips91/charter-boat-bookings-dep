@@ -7,7 +7,7 @@
  * Author: megphillips91
  * Contributors: megphillips91
  * Author URI: http://msp-media.org/
- * Version: 1.2
+ * Version: 1.3
  * License: GPL2+
  * http://www.gnu.org/licenses/gpl-3.0.html
  *

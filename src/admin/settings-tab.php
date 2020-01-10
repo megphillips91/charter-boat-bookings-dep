@@ -290,17 +290,17 @@ function chbk_admin_add_setting( $value ){
 		        ?>
 		        <tr valign="top">
 		            <th scope="row" class="titledesc">
-		                <label for="<?php echo esc_attr( $value['id'] ); ?>"><?php echo esc_html( $value['title'] ); ?></label>
+		                <label for="<?php echo sanitize_text_field( $value['id'] ); ?>"><?php echo esc_html( $value['title'] ); ?></label>
 		                <?php echo  $description['tooltip_html'];?>
 		            </th>
 
 		            <td class="forminp forminp-<?php echo sanitize_title( $value['type'] ) ?>">
 										 <input
-		                        name ="<?php echo esc_attr( $value['name'] ); ?>"
-		                        id   ="<?php echo esc_attr( $value['id'] ); ?>"
+		                        name ="<?php echo sanitize_text_field( $value['name'] ); ?>"
+		                        id   ="<?php echo sanitize_text_field( $value['id'] ); ?>"
 		                        type ="submit"
-		                        value="<?php echo esc_attr( $value['name'] ); ?>"
-		                        class="<?php echo esc_attr( $value['class'] ); ?>"
+		                        value="<?php echo sanitize_text_field( $value['name'] ); ?>"
+		                        class="<?php echo sanitize_text_field( $value['class'] ); ?>"
 		                />
 		                <?php echo $description['description']; ?>
 
@@ -319,16 +319,16 @@ function chbk_admin_date_range($value){
 	?>
 	<tr valign="top">
 			<th scope="row" class="titledesc">
-					<label for="<?php echo esc_attr( $value['id'] ); ?>"><?php echo esc_html( $value['title'] ); ?></label>
+					<label for="<?php echo sanitize_text_field( $value['id'] ); ?>"><?php echo esc_html( $value['title'] ); ?></label>
 					<?php echo  $description['tooltip_html'];?>
 
 			</th>
 			<td class="forminp forminp-<?php echo sanitize_title( $value['type'] ) ?>">
 					 <input
 
-									id   ="<?php echo esc_attr( $value['id'] ); ?>_start"
+									id   ="<?php echo sanitize_text_field( $value['id'] ); ?>_start"
 									type ="text"
-									class="datepicker cb-float-left <?php echo esc_attr( $value['class'] ); ?>"
+									class="datepicker cb-float-left <?php echo sanitize_text_field( $value['class'] ); ?>"
 					/>
 
 				 <a class="cb-remove-blackout-date-0"><i class="fas fa-trash"></i></a>
