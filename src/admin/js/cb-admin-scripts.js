@@ -4,6 +4,14 @@ jQuery(document).ready(function ($) {
 /* Scope: Javascript that affects admin side of WP
 */
 
+$(document).on('change','#product-type',function(event){
+	if(chbk_admin_scripts_vars.hook_suffix == 'post-new.php'
+	&& chbk_admin_scripts_vars.post_type == 'product'
+	&& $('#product-type').val() == 'charter_booking'){
+		$('#_sold_individually').attr('checked', 'checked');
+	}
+});
+
 
 function adminLazyloadProductListing (){
 	$( '.lazyload-product-listing' ).each(function( index ) {
