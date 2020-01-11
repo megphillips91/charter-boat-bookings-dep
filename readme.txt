@@ -5,7 +5,7 @@ Tags: Charter Boats, Bookings, WooCommerce, Tours, Tour Operator, Booking Calend
 Requires at least: 5.0
 Tested up to: 5.3
 Requires PHP: 5.3
-Stable tag: 1.5
+Stable tag: 1.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -157,3 +157,6 @@ This is really a business decision, but we’ve learned from experience that 15%
 
 = 1.5 =
 * made some changes to the order of the admin notices on install. Corrected a spelling error in an admin notice. Updated tag to 1.5
+
+= 1.6 =
+* debug sold_individually so defaults to yes for charter_booking product type. This version only supports private charters and will cause inventory and availability erros if sold_individually returns false.
