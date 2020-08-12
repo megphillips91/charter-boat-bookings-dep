@@ -31,7 +31,7 @@ class CB_Calendar {
 
   /* draws the calendar */
   public function draw_calendar(){
-
+    date_default_timezone_set(get_option('timezone_string'));
     $timestamp = mktime(0,0,0,$this->month,1,$this->year);
     $calendar = '<div class="cb-calendar-container" id="'.rand().'"><div class="cb-hold-calendar-loader"><span class="fa-stack fa-lg">
   	<i class="fa fa-circle fa-stack-2x"></i>
@@ -128,7 +128,8 @@ class CB_Calendar {
     $content = '<td class="calendar-day ';
     $content .= ($today->format('Y-m-d') == $calendardate->format('Y-m-d')) ? ' current-date ' : ' ';
     $content .= ' ">';
-    $content .= $this->get_link($date, NULL);
+    $passdate = $calendardate->format('Y-m-d');
+    $content .= $this->get_link($passdate, NULL);
     $content .= '</td>';
     return $content;
   }
@@ -209,7 +210,7 @@ class CB_Product_Calendar extends CB_Calendar {
     $content = '<td date="'.$calendardate->format('Y-m-d').'" class="calendar-day ';
     $content .= ($today->format('Y-m-d') == $calendardate->format('Y-m-d')) ? ' current-date ' : ' ';
     $content .= ($availability->available) ? '" >' : ' none " >' ;
-    $content .= $this->get_link_availability($date, $availability);
+    $content .= $this->get_link_availability($calendardate->format('Y-m-d'), $availability);
     $content .= '</td>';
     return $content;
   }
@@ -247,6 +248,5 @@ class CB_Product_Calendar extends CB_Calendar {
   }
 
 } //end class declaration
-
 
 ?>

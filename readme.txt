@@ -2,10 +2,10 @@
 Contributors: megphillips91
 Donate link: https://msp-media.org/product/support-open-source/
 Tags: Charter Boats, Bookings, WooCommerce, Tours, Tour Operator, Booking Calendar, Booking System, Reservations, Availability Calendar
-Requires at least: 5.0
-Tested up to: 5.3
-Requires PHP: 5.3
-Stable tag: 1.6
+Requires at least: 5.3
+Tested up to: 5.5
+Requires PHP: 7.1.2
+Stable tag: 1.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -16,7 +16,9 @@ Charter Boat Bookings is a boat booking system for captains. Use WooCommerce for
 ## WooCommerce Bookings Extension ##
 Charter Boat Bookings is a WooCommerce Bookings extension for tour operators specifically designed to take reservations for Charter Boats. Built to suit the business needs of Sailing Charters, Fishing Charters, Sportfishing, Fishing Guides, even Duck Hunting Guides. This WordPress charter boat booking system includes industry specific features including weather predictions and sunset dependent products. Book private or per person charters, and set your maximum passenger capacity. Minimize refunds with built-in reservation fee and final balance.
 
-This is the Lite version of Charter Boat Bookings and available here in the WordPress Plugin Repository for free use. If you are interested in more features, please do consider upgrading to [Charter Boat Bookings Pro](https://msp-media.org/charter-boat-bookings/). Charter Bookings is boat reservation software. It is not a general reservation system for tour operators that has been adapted into an online boat booking system. The target users for this plugin are owner-operator captains with no code writing expertise or agents developing an e-commerce website for captains. The dashboard has as few settings as possible to set up a typical sailing or fishing schedule and take paid reservations, manage availability, and communicate effectively with your customers.
+This is the Lite version of Charter Boat Bookings and available here in the WordPress Plugin Repository for free use. If you are interested in more features, please do consider upgrading to [Charter Boat Bookings Pro](https://msp-media.org/charter-boat-bookings/). Charter Bookings is boat reservation software. It is not a general reservation system for tour operators that has been adapted into an online boat booking system. The target users for this plugin are owner-operator captains with no code writing expertise or agents developing an e-commerce website for captains. The dashboard has as few settings as possible to set up a typical sailing or fishing schedule and take paid reservations, manage availability, and communicate effectively with your customers. I am very responsive to texts, messages here, and email. If you call me, it may be tough to get a response right away...sorry babies crying and kids running around all the time. 
+
+Talking on the phone is a scheduled ahead thing for me...just because of my kiddos. My typical office hours are 3am ET - 7am ET and 10am ET - 2pm ET. If you need a support appointment, email or text me. 
 
 ### Background ###
 Developed by a team with more than 40 combined years experience within all aspects of the charter industry: daysailing, bareboat charters, inshore fishing charters, sportfishing charters, marina management, and even fleet management.
